@@ -2,5 +2,5 @@
 	"version": 2,
 	"name": "cajt",
 	"builds": [{ "src": "*.py", "use": "@liudonghua123/now-flask", "config": { "maxLambdaSize": "30mb" } }],
-	"routes": [{ "src": "/.*", "dest": "/" }]
+	"routes": [{ "src": "/.*", "dest": "/index.py" }]
 }
